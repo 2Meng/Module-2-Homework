@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Global CSS Selectors */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0px;
+
+    width: 100%;
+
+    background-color: rgb(247, 234, 220);
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+    /* Header Navigation bar CSS Selectors */
+
+header .nav-bar ul li{
+    list-style: none;
+
+    display: inline;
+}
+
+header .nav-bar ul li a{
+    text-decoration: none;
+
+    padding: 20px;
+    
+    font-size: 2em;
+    color: rgb(70, 67, 67);
+}
+
+header .nav-bar ul li a:hover{
+    color: rgb(105, 99, 99);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    transition: .3s;
+}
+
+    /* Main Body CSS Selectors */
+
+
+    /* About Section */
+
+main #about-me{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    padding: 30px;
+}
+
+main #about-me h1{
+    font-size: 5em;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+    margin: 50px;
+    padding: 30px;
+}
+
+main #about-me p{
+    font-size: 2em;
+    margin: 50px;
+    padding: 30px;
+}
+
+    /* Projects Section */
+
+main #portfolio h2{
+    font-size: 5em;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+    margin: 50px;
+    padding: 30px;
+}
+
+main #portfolio {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 30px;
+}
+
+main #portfolio h2 {
+    font-size: 4em;
+    margin: 50px;
+    padding: 30px;
+}
+
+main #portfolio ul li a{
+    text-decoration: none;
+}
+
+    /* Portfolio 1 Container */
+
+main #portfolio .item-1 img{
+    width: 100%;
+    border: 6px solid gray;
+}
+
+main #portfolio .item-1 img:hover{
+    opacity: .9;
+    transition: .25s;
+}
+
+main #portfolio .portfolio-item .item-1{
+    width: 50%;
+}
+
+main #portfolio .portfolio-item h3{
+    font-size: 1.5rem;
+}
+
+    /* Portfolio 2 Container */
+
+main #portfolio .item-2 img{
+    width: 100%;
+    border: 6px solid gray;
+}
+
+main #portfolio .item-2 img:hover{
+    opacity: .9;
+    transition: .25s;
+}
+
+main #portfolio .portfolio-item .item-2{
+    width: 50%;
+}
+
+main #portfolio .portfolio-item h3{
+    font-size: 1.5rem;
+}
+
+    /* Portfolio 3 Container */
+
+main #portfolio .item-3 img{
+    width: 100%;
+    border: 6px solid gray;
+}
+
+main #portfolio .item-3 img:hover{
+    opacity: .9;
+    transition: .25s;
+}
+
+main #portfolio .portfolio-item .item-3{
+    width: 50%;
+}
+
+main #portfolio .portfolio-item h3{
+    font-size: 1.5rem;
+}
