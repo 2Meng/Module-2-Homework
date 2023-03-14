@@ -98,10 +98,9 @@ main #portfolio {
     padding: 30px;
 }
 
-main #portfolio h2 {
-    font-size: 4em;
-    margin: 50px;
-    padding: 30px;
+main #portfolio .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main #portfolio ul li a{
@@ -121,7 +120,7 @@ main #portfolio .item-1 img:hover{
 }
 
 main #portfolio .portfolio-item .item-1{
-    width: 50%;
+    width: 100%;
 }
 
 main #portfolio .portfolio-item h3{
@@ -141,7 +140,7 @@ main #portfolio .item-2 img:hover{
 }
 
 main #portfolio .portfolio-item .item-2{
-    width: 50%;
+    width: 100%;
 }
 
 main #portfolio .portfolio-item h3{
@@ -161,7 +160,7 @@ main #portfolio .item-3 img:hover{
 }
 
 main #portfolio .portfolio-item .item-3{
-    width: 50%;
+    width: 100%;
 }
 
 main #portfolio .portfolio-item h3{
