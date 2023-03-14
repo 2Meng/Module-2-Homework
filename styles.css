@@ -6,6 +6,10 @@
 
     /* Global CSS Selectors */
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -26,7 +30,6 @@ main{
     align-items: center;
     flex-direction: column;
 }
-
 
     /* Header Navigation bar CSS Selectors */
 
@@ -52,8 +55,7 @@ header .nav-bar ul li a:hover{
 }
 
     /* Main Body CSS Selectors */
-
-
+    
     /* About Section */
 
 main #about-me{
@@ -115,12 +117,13 @@ main #portfolio .item-1 img{
 }
 
 main #portfolio .item-1 img:hover{
-    opacity: .9;
+    opacity: .8;
     transition: .25s;
 }
 
 main #portfolio .portfolio-item .item-1{
     width: 100%;
+    padding: 20px;
 }
 
 main #portfolio .portfolio-item h3{
@@ -135,12 +138,13 @@ main #portfolio .item-2 img{
 }
 
 main #portfolio .item-2 img:hover{
-    opacity: .9;
+    opacity: .8;
     transition: .25s;
 }
 
 main #portfolio .portfolio-item .item-2{
     width: 100%;
+    padding: 20px;
 }
 
 main #portfolio .portfolio-item h3{
@@ -155,12 +159,13 @@ main #portfolio .item-3 img{
 }
 
 main #portfolio .item-3 img:hover{
-    opacity: .9;
+    opacity: .8;
     transition: .25s;
 }
 
 main #portfolio .portfolio-item .item-3{
     width: 100%;
+    padding: 20px;
 }
 
 main #portfolio .portfolio-item h3{
