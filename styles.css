@@ -20,15 +20,17 @@ header{
 
     width: 100%;
 
-    background-color: rgb(247, 234, 220);
+    background-color: rgb(241, 221, 198);
     padding: 20px;
 }
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
+
+    
 }
 
     /* Header Navigation bar CSS Selectors */
@@ -60,9 +62,15 @@ header .nav-bar ul li a:hover{
 
 main #about-me{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
     margin: 100px;
+    margin-bottom: 40px;
     padding: 30px;
+    width: 100%;
+    
 }
 
 main #about-me h1{
@@ -71,7 +79,7 @@ main #about-me h1{
     border-bottom: 1px solid black;
 
     margin: 50px;
-    padding: 30px;
+    padding: 40px;
 }
 
 main #about-me p{
@@ -82,21 +90,22 @@ main #about-me p{
 
     /* Projects Section */
 
+main #portfolio {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin: 25px;
+        padding: 30px;
+}
+
 main #portfolio h2{
     font-size: 5em;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 
     margin: 50px;
-    padding: 30px;
-}
-
-main #portfolio {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 25px;
     padding: 30px;
 }
 
