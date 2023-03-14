@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-image: url();
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -29,6 +33,8 @@ main{
     justify-content: space-around;
     align-items: center;
     flex-direction: column; 
+    
+    background-color: blanchedalmond;
 }
 
 footer{
@@ -55,7 +61,7 @@ header .nav-bar ul li{
 header .nav-bar ul li a{
     text-decoration: none;
 
-    padding: 20px;
+    padding: 55px;
     
     font-size: 2em;
     color: rgb(70, 67, 67);
@@ -74,8 +80,8 @@ header .nav-bar ul li a:hover{
 main #about-me{
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: no-wrap;
     
     margin: 100px;
     margin-bottom: 40px;
@@ -85,7 +91,7 @@ main #about-me{
 }
 
 main #about-me h1{
-    font-size: 5em;
+    font-size: 4em;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 
@@ -94,9 +100,10 @@ main #about-me h1{
 }
 
 main #about-me p{
-    font-size: 2em;
+    display: block;
+    font-size: 1.75em;
     margin: 50px;
-    padding: 30px;
+    padding: 50px 100px;
 }
 
     /* Projects Section */
@@ -107,12 +114,12 @@ main #portfolio {
         flex-direction: row;
         flex-wrap: wrap;
 
-        margin: 25px;
-        padding: 30px;
+        margin: 15px;
+        padding: 15px;
 }
 
 main #portfolio h2{
-    font-size: 5em;
+    font-size: 3.5em;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 
@@ -198,4 +205,55 @@ footer h3{
 
 footer .linkedin-icon{
     background-color: white;
+}
+
+footer .my-contact{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .email{
+    padding-right: 20px;
+}
+
+footer .phone{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+
+    header{
+        padding: 0px;
+        
+    }
+
+    header .nav-bar ul li a{
+        padding: 40px;
+    }
+
+    html{
+        background-color: blanchedalmond
+    }
+    
+    main #about-me{
+        flex-wrap: wrap;
+    }
+    
+    main #about-me h1{
+        margin: 20px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    header .nav-bar ul li a{
+        padding: 80px;
+    }
+
+    footer{
+        display: block;
+        width: 120%;
+    }
 }
