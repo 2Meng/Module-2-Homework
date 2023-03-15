@@ -2,3 +2,4 @@ This project reflects my first personal portfolio. It introduces the user to my 
 
 It was quite a struggle to make the website look great without much experience but building the website was a fun experience. I think with more practice using CSS will vastly boost the look of the website in the near future..!
 
+![image](https://user-images.githubusercontent.com/91503750/225432431-44c466e0-9b7d-4ef1-bccd-546aa0c250c0.png)
